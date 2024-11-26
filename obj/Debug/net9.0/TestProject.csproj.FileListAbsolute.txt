@@ -1,0 +1,14 @@
+C:\Users\waire\OneDrive\Desktop\csharp\TestProject\bin\Debug\net9.0\TestProject.exe
+C:\Users\waire\OneDrive\Desktop\csharp\TestProject\bin\Debug\net9.0\TestProject.deps.json
+C:\Users\waire\OneDrive\Desktop\csharp\TestProject\bin\Debug\net9.0\TestProject.runtimeconfig.json
+C:\Users\waire\OneDrive\Desktop\csharp\TestProject\bin\Debug\net9.0\TestProject.dll
+C:\Users\waire\OneDrive\Desktop\csharp\TestProject\bin\Debug\net9.0\TestProject.pdb
+C:\Users\waire\OneDrive\Desktop\csharp\TestProject\obj\Debug\net9.0\TestProject.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\waire\OneDrive\Desktop\csharp\TestProject\obj\Debug\net9.0\TestProject.AssemblyInfoInputs.cache
+C:\Users\waire\OneDrive\Desktop\csharp\TestProject\obj\Debug\net9.0\TestProject.AssemblyInfo.cs
+C:\Users\waire\OneDrive\Desktop\csharp\TestProject\obj\Debug\net9.0\TestProject.csproj.CoreCompileInputs.cache
+C:\Users\waire\OneDrive\Desktop\csharp\TestProject\obj\Debug\net9.0\TestProject.dll
+C:\Users\waire\OneDrive\Desktop\csharp\TestProject\obj\Debug\net9.0\refint\TestProject.dll
+C:\Users\waire\OneDrive\Desktop\csharp\TestProject\obj\Debug\net9.0\TestProject.pdb
+C:\Users\waire\OneDrive\Desktop\csharp\TestProject\obj\Debug\net9.0\TestProject.genruntimeconfig.cache
+C:\Users\waire\OneDrive\Desktop\csharp\TestProject\obj\Debug\net9.0\ref\TestProject.dll
