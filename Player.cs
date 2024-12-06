@@ -2,9 +2,11 @@ namespace DeckOfCards;
 
 public class Player {
 
+    public int wins { get; set; }
     public string name { get; }
     public List<Card> hand { get; set;}
     public int handValue { set; get;}
+
     public Player(string name) {
         this.name = name;
         this.hand = new List<Card> {};
@@ -18,16 +20,6 @@ public class Player {
 
     public string showHand() {
         return string.Join(", ", this.hand.Select(x => x.getName() + $"<{x.value}>"));
-    }
-
-    public string showDealerHand() {
-        Card faceCard = this.hand[0];
-        string mes = faceCard.getName();
-        for(int i = 1; i < this.hand.Count; i++) {
-            mes += ", ?";
-
-        }
-        return mes;
     }
 
     public int updateHandValue() {
@@ -58,6 +50,10 @@ public class Player {
             }
         }
         return value;
+    }
+
+    public void clearHand() {
+        this.hand.Clear();
     }
 
 }

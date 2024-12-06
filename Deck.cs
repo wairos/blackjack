@@ -3,17 +3,27 @@ namespace DeckOfCards
     public class Deck 
     {
         int totalCards = 52;
+        int draw = 0;
         public Card[] cards;
+
+        private int[] usedIndexes;
+
+
         
         public Deck() 
         {
             this.cards = this.generateCards();
+            this.usedIndexes = new int[this.totalCards];
         }
 
         public Card drawCard() 
         {
             Random ran = new Random();
             int index = ran.Next(0, totalCards);
+            if(Array.Exists(this.usedIndexes, n => n == index)){
+                return this.drawCard();
+            }
+            this.usedIndexes[this.draw++] = index;
             return this.cards[index];
         }
 
